@@ -1,0 +1,203 @@
+.btn1{
+    display: inline-block;
+    transform:translate(0,0);
+    width: 15%;
+    height: 30px;
+    margin-top: 1%;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    text-decoration: none;
+    border:0;
+    outline: none;
+    cursor:pointer;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 20px;
+}
+.btn-login {
+    background-color: rgba(255,165,121,1);
+    color: #fff;
+}
+.btn-register {
+    border:2px #FFA579 solid;
+    color: rgba(255,165,121,1);
+}
+.btn1:before{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index:-1;
+    border-radius:5px;
+    background:rgba(0,0,0,.1);
+}
+.btn1:hover:before{
+    content:"";
+}
+.btn1:after{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index:-1;
+    border-radius:1em;
+    background:rgba(0,0,0,.2);
+}
+.btn1:active:after{
+    content:"";
+}
+.timePickerStyle {
+    border: 1px #d1d1d1 solid;
+    border-radius: 5px;
+    height:30px;
+    background-color: #dddddd;
+    text-align: center;
+}
+#dateBtn{
+    width: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border:1px #2980B9 solid;
+    color: #2980B9;
+    margin-bottom: auto;
+}
+.userInfoLine{
+    text-align: center;        /*文字水平居中对齐*/
+    line-height: 55px;        /*设置文字行距等于div的高度*/
+    vertical-align:middle;
+}
+
+/*二维码生成*/
+.QRInput li{
+    list-style: none;
+    width: 100%;
+}
+.QRInput li div{
+    width: 50%;
+    border-radius: 5px;
+    color: #282828;
+    font-weight: bold;
+    vertical-align:middle;
+}
+.redText{
+    color:#FF3B30;
+}
+.QRInput li input{
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    /*padding-right: 15px;*/
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 10px 0 10px 0;
+}
+.QRInput li textarea{
+    resize: none;
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 10px 0 10px 0;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.QRBtn input{
+    width: 20%;
+    padding: 10px;
+    /*background-color: rgba(255,255,255,0.3);*/
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.QRBtn input:nth-child(1){
+    margin-right: 56%;
+}
+.QRlist{
+    /*margin-top: 20px;*/
+    color: #FFA579;
+}
+.text-info {
+    color:#FFA579 ;
+}
+
+.QRlist table{
+    background-color: rgba(255,255,255,0.8);
+    color: #868686;
+    /*border-collapse: collapse;*/
+}
+#listTitle{
+    line-height: 30px;
+    height:30px;
+}
+.qrlist {
+    text-align: center;
+    border:1px solid #dddddd;
+    border-radius: 10px;
+    width:60%;
+    padding: 2% 0 2% 0;
+    margin-bottom: 5%;
+    margin-left: 25%;
+}
+.sceneNameText {
+    color: #FFA579;
+}
+.deleteBtn,.editBtn{
+    /*background-color: #FFA579;*/
+    padding:1% 4%;
+}
+.deleteBtn {
+    margin-bottom:10%;
+}
+.cancelBtn{
+    margin-left: 3%;
+}
+.showList {
+    height:10vw;
+    word-wrap:break-word;
+    word-break:break-all;
+    display:table-cell;
+    vertical-align:middle;
+    margin: 0 auto;
+}
+.resultList td{
+    text-align: center;
+}
+.content-padding{
+    padding-left:3%;
+    padding-right: 3%;
+}
+.introTitle{
+    font-weight:bold;
+    font-size:1.5em;
+    text-align: center;
+}
+.introContent{
+    font-size:1.2em;
+    text-indent:2em;
+}
+.introContentTitle{
+    width:100px;
+    height:4vm;
+    background-color: #FFA579;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 4vm;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 16px;
+    margin-top: 3%;
+}
+.introContentBox{
+    border:2px solid #FFA579;
+    padding:1% 2% 0 2%;
+    text-indent:2em;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    font-size:1em;
+}
+.introContentBox p{
+    margin:0;
+    margin-bottom: 1%;
+}

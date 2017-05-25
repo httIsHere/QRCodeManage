@@ -1,0 +1,52 @@
+/*.login{*/
+	/*text-align: center;*/
+	/*background-color: rgba(134,134,134,0.6);*/
+	/*box-shadow: 0px 0px 25px rgba(0,0,0,0.3);*/
+	/*position: relative;*/
+	/*width: 30%;*/
+	/*margin-top: 15%;*/
+	/*left: 55%;*/
+/*}*/
+/*.title{*/
+	/*text-align: center;*/
+	/*color: #fff;*/
+	/*margin: 20px 0 20px 0;*/
+	/*padding-top: 20px;*/
+/*}*/
+/*.form-control{*/
+	/*width: 50%;*/
+	/*height: 25px;*/
+	/*margin-bottom: 5%;*/
+	/*border-radius: 5px;*/
+	/*outline: none;*/
+	/*background: rgba(255,165,121,0.5);*/
+	/*border:0;*/
+	/*padding-left: 5%;*/
+	/*padding-top: 2%;*/
+	/*padding-bottom: 2%;*/
+	/*color: #fff;*/
+	/*!*display: block;*!*/
+/*}*/
+/*.btn:before{*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index:-1;*/
+    /*border-radius:5px;*/
+    /*background:rgba(0,0,0,.1);*/
+/*}*/
+/*.btn:hover:before{*/
+    /*content:"";*/
+/*}*/
+/*.btn:after{*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index:-1;*/
+    /*border-radius:1em;*/
+    /*background:rgba(0,0,0,.2);*/
+/*}*/
+/*.btn:active:after{*/
+    /*content:"";*/
+/*}*/
+/*.checkbox{*/
+	/*color: #fff;*/
+/*}*/

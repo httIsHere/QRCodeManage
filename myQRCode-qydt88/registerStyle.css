@@ -1,0 +1,63 @@
+body {
+    width: 100vw;
+    overflow: hidden;
+    background: url("mohu1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.register-content {
+    width:100%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.4);
+    position: relative;
+    border-radius: 1em;
+}
+.register-main {
+    padding:5% 10% 0% 10%;
+}
+.btn1{
+    display: inline-block;
+    transform:translate(0,0);
+    width: 20%;
+    height: 30px;
+    margin-top: 1%;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    text-decoration: none;
+    border:0;
+    outline: none;
+    cursor:pointer;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 20px;
+}
+.btn-login {
+    background-color: rgba(255,165,121,1);
+    color: #fff;
+}
+.btn-register {
+    border:2px #FFA579 solid;
+    color: rgba(255,165,121,1);
+}
+.btn1:before{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index:-1;
+    border-radius:5px;
+    background:rgba(0,0,0,.1);
+}
+.btn1:hover:before{
+    content:"";
+}
+.btn1:after{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index:-1;
+    border-radius:1em;
+    background:rgba(0,0,0,.2);
+}
+.btn1:active:after{
+    content:"";
+}
